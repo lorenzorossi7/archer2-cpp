@@ -1,7 +1,7 @@
 template: titleslide
 # Linear Algebra for C++ (using Eigen)
-## James Richings, EPCC
-## j.richings@epcc.ed.ac.uk
+## Joseph Lee, EPCC
+## j.lee@epcc.ed.ac.uk
 
 ---
 # Source
@@ -9,7 +9,6 @@ template: titleslide
 Original: 
 - Chris Richardson (chris@bpi.cam.ac.uk)
 - Rupert Nash (r.nash@epcc.ed.ac.uk)
-- Joseph Lee (j.lee@epcc.ed.ac.uk)
 ---
 
 # Rundown
@@ -449,9 +448,8 @@ The matrix A is very similar - just flip the sign of the delta terms
 ---
 # Exercise: Diffusion equation (sparse)
 
-There is also a way to implement this example using the sparse matrix interface in eigen.
+Hints:
 
-Some changes to look out for in the `sparse.cpp` example:
 ```C++
 #include <Eigen/Sparse>
 ```
@@ -471,22 +469,3 @@ A.setFromTriplets(fill.begin(), fill.end());
 ```
 
 See `exercises/eigen/sparse.cpp`
-
----
-# Exercise: Diffusion equation 3 ways
-
-- Use `modules.sh` to load correct environment on ARCHER2
-  
-- Compile the examples using `make`
-  
-- Run each of the three examples explicit, implicit and sparse
-  
-- Generate the movie using the provided python script
-
-To view the movie you will need to either:
-   -  Download the data and generate it locally
-  
-    or
-  
-   - Set up a python virtual environment on ARCHER2 with matplotlib
-   - User `ssh -X` to view graphics

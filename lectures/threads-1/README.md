@@ -1,11 +1,7 @@
 template: titleslide
-
 # C++ Threads - Basics
-## James Richings, EPCC
-## j.richings@epcc.ed.ac.uk
 
 ---
-
 # Overview
 
 - Introduction

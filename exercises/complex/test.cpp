@@ -1,7 +1,7 @@
 // Catch2 is a unit testing library
 // Here we let it create a main() function for us
 #define CATCH_CONFIG_MAIN
-#include "catch.hpp"
+#include "catch_new.hpp"
 
 #include "complex.hpp"
 

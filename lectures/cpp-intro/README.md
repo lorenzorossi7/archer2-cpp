@@ -1,8 +1,8 @@
 template: titleslide
 
 # A brief introduction to C++
-## James Richings, EPCC
-## j.richings@epcc.ed.ac.uk
+## Maurice Jamieson, EPCC
+## m.jamieson@epcc.ed.ac.uk
 
 ---
 
@@ -126,7 +126,7 @@ Every three years there is a new update to the International Standard
 Latest one, C++20, still not fully implemented by an compiler. Major
 new features are ranges, coroutines, concepts, and modules
 
-C++23 is still in draft (N4950). Major features likely to include
+C++23 is still in draft (N4944). Major features likely to include
 networking, string formatting, executors, and consolidation of new
 C++20 features
 
@@ -243,7 +243,7 @@ template: titleslide
 ---
 # Machine choice
 
-You can use your laptop or ARCHER2
+You can use your laptop or Cirrus
 
 __Your machine__ : you need a C++ compiler that supports at least
 C++11. If you use Windows and MSVC we may not be able to help
@@ -253,12 +253,12 @@ __ARCHER2__: You have log in details.
 
 Once connected you need to load the up-to-date compilers:
 ```
-module load gcc/11.2.0
+module load gcc/10.2.0
 ```
 
 ???
 
-There are later versions of GCC on ARCHER2 but 11.2.0 is the default version
+There are later versions of GCC on ARCHER2 but 10.2.0 is the default version
 
 ---
 # Getting the source code
@@ -408,7 +408,7 @@ Go look them up on CPP Reference as you need to
 
 # Strings
 
-The standard library has a class called `string` that holds a string
+The standard library has a class* called `string` that holds a string
 of text characters.
 
 You have to `#include <string>` to use it which includes the "header

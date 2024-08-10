@@ -1,8 +1,5 @@
 template: titleslide
-
 # Resource management
-## James Richings, EPCC
-## j.richings@epcc.ed.ac.uk
 
 ---
 # Resources
@@ -781,8 +778,4 @@ etc wrapped here.
 # Exercise
 
 Try out some of this with exercises/morton-order
-
-Instructions can be found here:
-
-archer2-cpp/exercises/morton-order/instructions.md
 

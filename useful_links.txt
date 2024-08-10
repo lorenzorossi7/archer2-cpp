@@ -1,0 +1,15 @@
+Course page:
+https://www.archer2.ac.uk/training/courses/240226-modern-c/
+
+GitHub repository:
+https://github.com/EPCCed/archer2-cpp.git
+
+Course notes:
+https://pad.archer2.ac.uk/p/240226-modern-c
+
+Lecture slides:
+https://epcced.github.io/archer2-cpp/lectures/
+
+Useful tool, Compiler Explorer: https://godbolt.org
+
+

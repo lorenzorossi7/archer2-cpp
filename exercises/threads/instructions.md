@@ -5,7 +5,7 @@
 Source for this can be obtained from Github. Get a new copy with:
 
 ```
-git clone https://github.com/EPCCed/archer2-cpp
+git clone https://github.com/EPCCed/archer2-CPP-2021-07-20
 ```
 
 or update your existing one with
@@ -17,8 +17,10 @@ git pull
 then you can
 
 ```
-cd archer2-cpp/exercises/threads
+cd archer2-CPP-2021-07-20/exercises/threads
 ```
+
+
 
 `area.cpp` contains a C++ version of the Mandelbrot example which you used in Threaded Programming. 
 

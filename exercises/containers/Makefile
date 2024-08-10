@@ -1,3 +1,5 @@
+export CXX=g++
+
 CXXFLAGS = --std=c++17 -I../include
 
 test : vector_ex.o map_ex.o test.o
